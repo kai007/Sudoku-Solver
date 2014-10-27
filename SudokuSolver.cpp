@@ -79,7 +79,7 @@ bool isSafe(int grid[N][N], int row, int col, int num)
 void printGrid(int grid[N][N])
 {
     FILE * Output;
-    Output = fopen("data.txt", "a");
+    Output = fopen("output.txt", "a");
     int row,col;
     for (row = 0; row < N; row++)
     {
